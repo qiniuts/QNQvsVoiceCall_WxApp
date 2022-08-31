@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <text>建议打开调试模式体验</text>
+  <text>1. 先获取地址用来发送音频数据</text>
+  <text>2. 点击开始录音，会发音频数据到GB28181设备上</text>
+  <text>3. 点击停止录音，会停止发送</text>
+  <button bindtap="getTalkUrl" type="primary">获取地址</button>
+  <button bindtap="clickme" type="primary">{{button}}</button>
+</view>
